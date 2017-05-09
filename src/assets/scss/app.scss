@@ -60,6 +60,55 @@
 }
 
 
+
+$kurs-border-left: rem-calc(5);
+$kurs-bg: #ffffff;
+
+.kurs {
+  border-left: $kurs-border-left solid $success-color;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.05);
+  box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.05);
+
+  &.alert {
+    border-left: $kurs-border-left solid $alert-color;
+    background: $kurs-bg;
+  }
+
+  &.warning {
+    border-left: $kurs-border-left solid $warning-color;
+    background: $kurs-bg;
+  }
+}
+
+$dozent-width: 200px;
+$dozent-height: $dozent-width;
+
+.dozent {
+  border-radius: 50%;
+  width: $dozent-width;
+  height: $dozent-height;
+   margin: 0 0 20px;
+}
+
+.dozent-name {
+   margin: 25px 0px 0px 25px;
+ }
+
+.dozent-listing {
+  margin: 50px 0px 50px 0px;
+}
+
+.partner {
+  width: 250px;
+  height: auto;
+}
+
+.partnertext {
+  margin-top: 20px;
+}
+
 .top15 {
   margin-top: 15px;
 }
