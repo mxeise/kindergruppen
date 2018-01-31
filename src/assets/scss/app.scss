@@ -133,7 +133,7 @@ $dozent-height: $dozent-width;
  }
 
 .dozent-listing {
-  margin: 50px 0px 50px 0px;
+  margin: 10px 0px 50px 0px;
 }
 
 .partner {
@@ -146,15 +146,18 @@ $dozent-height: $dozent-width;
 }
 
 .footer {
+  margin-top: 100px;
   background-color: $mid-green;
-  color: $white;
+  color: $white !important;
 
   .inner {
     padding: 40px 0px 40px 0px;
   }
 }
 
-//
+.white_link {
+  color: $white !important;
+}
 
 .top15 {
   margin-top: 15px;
