@@ -145,6 +145,11 @@ $dozent-height: $dozent-width;
   margin-top: 20px;
 }
 
+.button.primary {
+  background-color: #20989B !important;
+  color: #ffffff;
+}
+
 .footer {
   margin-top: 100px;
   background-color: $mid-green;
@@ -152,7 +157,7 @@ $dozent-height: $dozent-width;
 
   .inner {
     padding: 40px 0px 40px 0px;
-  }
+
 }
 
 .white_link {
@@ -185,4 +190,4 @@ $dozent-height: $dozent-width;
 
 .no-margin {
   margin: 0px 0px 0px 0px !important;
-}
+}}
