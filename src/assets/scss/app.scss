@@ -145,10 +145,6 @@ $dozent-height: $dozent-width;
   margin-top: 20px;
 }
 
-.button.primary {
-  background-color: #20989B !important;
-  color: #ffffff;
-}
 
 .footer {
   margin-top: 100px;
@@ -158,6 +154,10 @@ $dozent-height: $dozent-width;
   .inner {
     padding: 40px 0px 40px 0px;
 
+}
+
+.dozenten {
+  padding-top: 75px;
 }
 
 .white_link {
