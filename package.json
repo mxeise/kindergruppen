@@ -46,5 +46,8 @@
       "es2015"
     ]
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "npm": "^5.7.1"
+  }
 }
